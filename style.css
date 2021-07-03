@@ -1,0 +1,97 @@
+.highlight {color:red;}
+body{
+  background-color: black;
+  font: bold sans-serif;
+}
+label{
+    margin-top:20%; 
+    padding: 10px;
+   cursor: pointer;
+    color: black;
+    display: table;
+    text-align: center;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available
+    
+     }
+
+
+
+input[type="file"] {
+    display:none;
+}
+.docdiv{
+  background:gainsboro; 
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 5px solid greenyellow;
+    box-shadow:1px 3px 3px 2px gold;
+   height: 200px;  
+   width: 450px;
+   border-radius: 15px;
+}
+.docdiv1{
+  margin: auto;
+   margin-top: 50px;
+  border-radius: 15px;
+   height: 500px;  
+   width: 600px;
+   background-color: whitesmoke;
+   border: 5px solid gold;
+    box-shadow:1px 3px 3px 2px greenyellow;
+}
+.fileinput{
+margin-left: 30%;
+width: 500px;
+height: 100px;
+margin-top: 30%;
+}
+#output{
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  
+}
+.context-menu {
+            position: absolute;
+            text-align: center;
+            background:white;
+          margin-left: 10%;
+          margin-right: 10%;
+            
+        }
+  
+        .context-menu ul {
+            padding: 0px;
+            margin: 0px;
+            min-width: 150px;
+            list-style: none;
+            margin-top: 10%;
+           height: 10%;
+   
+        }
+  
+        .context-menu ul li {
+            padding-bottom: 7px;
+            padding-top: 7px;
+            border: 1px solid black;
+        }
+  
+        .context-menu ul li:hover {
+            background: whitesmoke;
+        }
+
+        .display-none{
+   display: none;
+}
+
+@media screen and (max-width:377px) {
+         .docdiv1,.docdiv,#output,.context-menu{
+            
+            width:auto;
+            
+    }
+}
